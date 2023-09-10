@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+}
+.login {
+  border: 1px solid teal;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 10rem;
+  padding: 1rem;
+}
+.inp {
+  display: flex;
+  justify-content: space-between;
+}
+.err {
+  color: red;
+}
+button {
+  width: fit-content;
+  align-self: center;
+}
